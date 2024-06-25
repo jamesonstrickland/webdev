@@ -7,8 +7,8 @@ app = Flask(__name__)
 db_config = {
     'server': 'USABQM0TEST',
     'database': 'ICTTA',
-    'username': 'webappuser',
-    'password': 'Jabil@2024',
+    'username': 'username',
+    'password': 'password',
     'port': '1433'
 }
 
