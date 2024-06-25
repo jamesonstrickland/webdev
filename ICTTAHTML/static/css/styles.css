@@ -1,0 +1,47 @@
+/* Universal Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    text-align: center; /* Center the body content */
+}
+
+/* Button Styles */
+button {
+    background-color: #0D47A1;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;  /* Increased padding for large format */
+    font-size: 1.5em;  /* Larger font size */
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;  /* Center the buttons */
+    display: block;  /* Make buttons block-level elements to center them easily */
+}
+
+button:hover {
+    background-color: #09408C;
+}
+
+/* Header Styles */
+h1 {
+    color: #0D47A1;
+}
+
+/* Form Styles */
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and Select Styles */
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}

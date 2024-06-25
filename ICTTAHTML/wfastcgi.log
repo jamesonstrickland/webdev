@@ -1,0 +1,2545 @@
+2024-06-19 13:34:59.006713: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:34:59.006713: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:34:59.006713: Running on_exit tasks
+2024-06-19 13:34:59.016733: wfastcgi.py 3.0.0 closed
+2024-06-19 13:37:24.392537: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:37:24.392537: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:37:24.392537: Running on_exit tasks
+2024-06-19 13:37:24.408171: wfastcgi.py 3.0.0 closed
+2024-06-19 13:39:18.707888: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:39:18.707888: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:39:18.707888: Running on_exit tasks
+2024-06-19 13:39:18.707888: wfastcgi.py 3.0.0 closed
+2024-06-19 13:39:23.974214: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:39:23.989877: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:39:23.995292: Running on_exit tasks
+2024-06-19 13:39:23.995292: wfastcgi.py 3.0.0 closed
+2024-06-19 13:50:14.402650: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:50:14.402650: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:50:14.402650: Running on_exit tasks
+2024-06-19 13:50:14.418289: wfastcgi.py 3.0.0 closed
+2024-06-19 13:50:22.328578: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:50:22.328578: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:50:22.328578: Running on_exit tasks
+2024-06-19 13:50:22.328578: wfastcgi.py 3.0.0 closed
+2024-06-19 13:56:43.569294: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:56:43.569294: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:56:43.569294: Running on_exit tasks
+2024-06-19 13:56:43.569294: wfastcgi.py 3.0.0 closed
+2024-06-19 13:56:49.058530: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:56:49.058530: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:56:49.058530: Running on_exit tasks
+2024-06-19 13:56:49.058530: wfastcgi.py 3.0.0 closed
+2024-06-19 13:57:46.225823: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:57:46.225823: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:57:46.241438: Running on_exit tasks
+2024-06-19 13:57:46.241438: wfastcgi.py 3.0.0 closed
+2024-06-19 13:57:52.054344: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:57:52.054344: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:57:52.070010: Running on_exit tasks
+2024-06-19 13:57:52.070010: wfastcgi.py 3.0.0 closed
+2024-06-19 13:58:32.493777: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 13:58:32.493777: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 13:58:32.493777: Running on_exit tasks
+2024-06-19 13:58:32.493777: wfastcgi.py 3.0.0 closed
+2024-06-19 14:03:19.977618: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 14:03:19.977618: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 14:03:19.977618: Running on_exit tasks
+2024-06-19 14:03:20.008860: wfastcgi.py 3.0.0 closed
+2024-06-19 14:04:25.153183: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 14:04:25.168812: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app:app" could not be imported
+2024-06-19 14:04:25.173513: Running on_exit tasks
+2024-06-19 14:04:25.174025: wfastcgi.py 3.0.0 closed
+2024-06-19 14:04:53.149658: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 2, in <module>
+    from app import app
+ImportError: cannot import name 'app' from partially initialized module 'app' (most likely due to a circular import) (C:\inetpub\wwwroot\ICTTAHTML\app.py)
+
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 14:04:53.165311: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 2, in <module>
+    from app import app
+ImportError: cannot import name 'app' from partially initialized module 'app' (most likely due to a circular import) (C:\inetpub\wwwroot\ICTTAHTML\app.py)
+
+2024-06-19 14:04:53.170293: Running on_exit tasks
+2024-06-19 14:04:53.170293: wfastcgi.py 3.0.0 closed
+2024-06-19 14:05:06.419557: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:05:06.452011: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:07:45.135021: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-19 14:07:45.135021: Running on_exit tasks
+2024-06-19 14:07:55.328153: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:07:55.334435: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:09:14.388161: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 14:09:14.388161: Running on_exit tasks
+2024-06-19 14:09:14.403751: wfastcgi.py 3.0.0 closed
+2024-06-19 14:09:20.485813: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:09:20.501493: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:10:34.140789: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:10:34.140789: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:13:17.836840: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 14:14:16.957884: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:14:16.962213: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:20:29.810053: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-19 14:20:29.810053: Running on_exit tasks
+2024-06-19 14:20:45.678215: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:20:45.693832: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:26:00.349319: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-19 14:26:00.349319: Running on_exit tasks
+2024-06-19 14:26:14.623068: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:26:14.638688: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:31:28.675271: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 14:31:28.790977: Running on_exit tasks
+2024-06-19 14:31:29.174674: wfastcgi.py 3.0.0 closed
+2024-06-19 14:58:43.539214: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 14:58:43.539214: wfastcgi.py 3.0.0 initialized
+2024-06-19 14:59:36.165080: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-19 14:59:36.165080: Running on_exit tasks
+2024-06-19 14:59:39.868537: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 40, in <module>
+    @app.route('new-request')
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 14:59:39.878053: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 40, in <module>
+    @app.route('new-request')
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+2024-06-19 14:59:39.878053: Running on_exit tasks
+2024-06-19 14:59:39.878053: wfastcgi.py 3.0.0 closed
+2024-06-19 15:00:02.683549: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 40, in <module>
+    @app.route('new-request')
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 15:00:02.683549: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 40, in <module>
+    @app.route('new-request')
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+2024-06-19 15:00:02.699203: Running on_exit tasks
+2024-06-19 15:00:02.699203: wfastcgi.py 3.0.0 closed
+2024-06-19 15:00:09.297143: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:00:09.312774: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:05:03.132103: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:05:03.147730: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:13:12.100520: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 15:13:12.100520: Running on_exit tasks
+2024-06-19 15:13:12.109536: wfastcgi.py 3.0.0 closed
+2024-06-19 15:13:56.601657: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:13:56.617285: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:18:24.369843: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:18:24.369843: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:24:47.757404: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 15:24:47.757404: Running on_exit tasks
+2024-06-19 15:24:47.757404: wfastcgi.py 3.0.0 closed
+2024-06-19 15:49:12.264538: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:49:12.281938: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:50:53.816112: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 15:50:53.816112: Running on_exit tasks
+2024-06-19 15:50:53.831716: wfastcgi.py 3.0.0 closed
+2024-06-19 15:51:08.073387: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:51:08.077118: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:53:18.284502: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:53:18.291342: wfastcgi.py 3.0.0 initialized
+2024-06-19 15:58:32.315303: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 15:58:32.315303: Running on_exit tasks
+2024-06-19 15:58:32.330882: wfastcgi.py 3.0.0 closed
+2024-06-19 15:59:15.767291: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 15:59:15.767291: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:04:29.769100: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 16:04:29.769100: Running on_exit tasks
+2024-06-19 16:04:29.769100: wfastcgi.py 3.0.0 closed
+2024-06-19 16:08:17.246188: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:08:17.246188: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:13:31.328152: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 16:13:31.338186: Running on_exit tasks
+2024-06-19 16:13:31.338186: wfastcgi.py 3.0.0 closed
+2024-06-19 16:24:26.948834: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 16:24:26.964473: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+2024-06-19 16:24:26.964473: Running on_exit tasks
+2024-06-19 16:24:26.969069: wfastcgi.py 3.0.0 closed
+2024-06-19 16:24:38.492352: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 16:24:38.492352: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+2024-06-19 16:24:38.492352: Running on_exit tasks
+2024-06-19 16:24:38.507967: wfastcgi.py 3.0.0 closed
+2024-06-19 16:24:50.939267: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+
+
+StdOut: 
+
+StdErr: 
+2024-06-19 16:24:50.939267: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 57, in <module>
+    @app.route('/api/get-requestIds', methods=['GET'])
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: get_material_ids
+2024-06-19 16:24:50.939267: Running on_exit tasks
+2024-06-19 16:24:50.939267: wfastcgi.py 3.0.0 closed
+2024-06-19 16:26:13.314559: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:26:13.332171: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:26:19.325269: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:26:19.325269: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:26:20.439600: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:26:20.439600: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:27:29.711889: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:27:29.711889: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:27:30.742572: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:27:30.742572: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:28:13.131553: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:28:13.139065: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:28:14.195802: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:28:14.211475: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:21.302685: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:21.302685: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:23.711873: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:23.711873: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:27.015941: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:27.015941: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:28.150280: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:28.150796: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:39.725498: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:39.741160: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:29:40.808882: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:29:40.824535: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:30:09.808115: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:30:09.808115: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:30:10.835698: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:30:10.851348: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:32:31.947973: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:32:31.947973: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:32:32.872665: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:32:32.872665: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:34:49.569466: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:34:49.569466: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:37:00.801555: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:37:00.817202: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:37:08.623840: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:37:08.623840: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:37:09.667900: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:37:09.667900: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:38:33.341753: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:38:33.346323: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:38:57.429579: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:38:57.445231: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:39:08.428273: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:39:08.428273: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:39:09.661741: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:39:09.661741: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:42:15.701892: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:42:15.717525: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:44:41.924691: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-19 16:44:41.940360: wfastcgi.py 3.0.0 initialized
+2024-06-19 16:49:56.011295: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-19 16:49:56.011295: Running on_exit tasks
+2024-06-19 16:49:56.011295: wfastcgi.py 3.0.0 closed
+2024-06-20 06:39:38.954660: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 06:39:38.988973: wfastcgi.py 3.0.0 initialized
+2024-06-20 06:44:50.495840: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 06:44:50.495840: Running on_exit tasks
+2024-06-20 06:44:50.495840: wfastcgi.py 3.0.0 closed
+2024-06-20 08:28:11.152051: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 08:28:11.152051: wfastcgi.py 3.0.0 initialized
+2024-06-20 08:33:25.236565: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 08:33:25.252158: Running on_exit tasks
+2024-06-20 08:33:25.252158: wfastcgi.py 3.0.0 closed
+2024-06-20 08:35:53.065697: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 08:35:53.083101: wfastcgi.py 3.0.0 initialized
+2024-06-20 08:44:02.065078: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 08:44:02.065078: Running on_exit tasks
+2024-06-20 08:44:02.065078: wfastcgi.py 3.0.0 closed
+2024-06-20 09:56:56.127809: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 09:56:56.127809: wfastcgi.py 3.0.0 initialized
+2024-06-20 09:57:01.229987: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 09:57:01.246941: wfastcgi.py 3.0.0 initialized
+2024-06-20 10:02:10.126816: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 10:02:10.126816: Running on_exit tasks
+2024-06-20 10:02:10.126816: wfastcgi.py 3.0.0 closed
+2024-06-20 10:02:15.411716: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 10:02:15.411716: Running on_exit tasks
+2024-06-20 10:02:15.411716: wfastcgi.py 3.0.0 closed
+2024-06-20 10:54:05.768171: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 10:54:05.773541: wfastcgi.py 3.0.0 initialized
+2024-06-20 10:56:48.717435: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 10:56:48.726896: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:02:14.942110: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 11:02:14.942110: Running on_exit tasks
+2024-06-20 11:02:14.942110: wfastcgi.py 3.0.0 closed
+2024-06-20 11:02:37.563124: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 11:02:37.563124: Running on_exit tasks
+2024-06-20 11:02:37.563124: wfastcgi.py 3.0.0 closed
+2024-06-20 11:15:43.095143: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:15:43.114575: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:20:57.190101: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 11:20:57.190101: Running on_exit tasks
+2024-06-20 11:20:57.190101: wfastcgi.py 3.0.0 closed
+2024-06-20 11:30:14.265705: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:30:14.265705: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:31:45.743216: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-20 11:31:45.743216: Running on_exit tasks
+2024-06-20 11:31:54.688891: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 44, in <module>
+    @app.route("/fidelitone-dashboard")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: warehouse_dashboard
+
+
+StdOut: 
+
+StdErr: 
+2024-06-20 11:31:54.688891: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 44, in <module>
+    @app.route("/fidelitone-dashboard")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1090, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: warehouse_dashboard
+2024-06-20 11:31:54.704511: Running on_exit tasks
+2024-06-20 11:31:54.704511: wfastcgi.py 3.0.0 closed
+2024-06-20 11:32:27.065497: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:32:27.065497: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:32:36.055894: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:32:36.055894: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:35:54.266295: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:35:54.266295: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:37:56.056428: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:37:56.056428: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:38:05.062049: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:38:05.062049: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:42:05.346527: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:42:05.362156: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:42:17.298370: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:42:17.298370: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:47:19.215309: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 11:47:19.215309: Running on_exit tasks
+2024-06-20 11:47:19.215309: wfastcgi.py 3.0.0 closed
+2024-06-20 11:51:33.929113: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-20 11:51:33.929113: Running on_exit tasks
+2024-06-20 11:51:49.692365: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 11:51:49.708031: wfastcgi.py 3.0.0 initialized
+2024-06-20 11:57:38.786832: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 11:57:38.786832: Running on_exit tasks
+2024-06-20 11:57:38.786832: wfastcgi.py 3.0.0 closed
+2024-06-20 12:03:10.015001: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 12:03:10.015001: wfastcgi.py 3.0.0 initialized
+2024-06-20 12:15:24.207095: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 12:15:24.207095: Running on_exit tasks
+2024-06-20 12:15:24.222682: wfastcgi.py 3.0.0 closed
+2024-06-20 14:17:30.325618: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-20 14:17:30.325618: wfastcgi.py 3.0.0 initialized
+2024-06-20 14:22:44.020759: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-20 14:22:44.020759: Running on_exit tasks
+2024-06-20 14:22:44.020759: wfastcgi.py 3.0.0 closed
+2024-06-21 06:55:42.233100: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 06:55:42.292262: wfastcgi.py 3.0.0 initialized
+2024-06-21 07:01:28.107829: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 07:01:28.117856: Running on_exit tasks
+2024-06-21 07:01:28.117856: wfastcgi.py 3.0.0 closed
+2024-06-21 08:22:12.536286: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:22:12.536286: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:24:00.699518: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 08:24:00.706645: Running on_exit tasks
+2024-06-21 08:24:04.973432: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:24:04.973432: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:24:21.274998: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 08:24:21.288990: Running on_exit tasks
+2024-06-21 08:25:03.990408: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:25:03.990408: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:25:15.541302: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 08:25:15.541302: Running on_exit tasks
+2024-06-21 08:25:19.038284: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:25:19.054396: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:28:30.881165: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 08:28:30.881165: Running on_exit tasks
+2024-06-21 08:28:33.889121: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:28:33.898323: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:33:48.018354: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 08:33:48.018354: Running on_exit tasks
+2024-06-21 08:33:48.018354: wfastcgi.py 3.0.0 closed
+2024-06-21 08:35:05.438657: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:35:05.454296: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:46:09.431297: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 08:46:09.431297: Running on_exit tasks
+2024-06-21 08:46:09.431297: wfastcgi.py 3.0.0 closed
+2024-06-21 08:50:13.166488: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:50:13.182150: wfastcgi.py 3.0.0 initialized
+2024-06-21 08:55:31.148464: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 08:55:31.148464: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:00:41.999792: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 09:00:42.009317: Running on_exit tasks
+2024-06-21 09:00:42.011895: wfastcgi.py 3.0.0 closed
+2024-06-21 09:02:30.271036: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 09:02:30.271036: Running on_exit tasks
+2024-06-21 09:02:30.271036: wfastcgi.py 3.0.0 closed
+2024-06-21 09:04:47.234137: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:04:47.249776: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:05:58.388575: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:05:58.388575: Running on_exit tasks
+2024-06-21 09:06:09.087654: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:06:09.087654: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:06:24.444096: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:06:24.459698: Running on_exit tasks
+2024-06-21 09:06:32.862316: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:06:32.862316: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:08:52.599798: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:08:52.609376: Running on_exit tasks
+2024-06-21 09:09:00.509146: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:09:00.520619: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:10:34.296082: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:10:34.311705: Running on_exit tasks
+2024-06-21 09:11:47.602901: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:11:47.602901: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:11:57.634093: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:11:57.634093: Running on_exit tasks
+2024-06-21 09:12:09.283051: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:12:09.283051: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:12:34.185292: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:12:34.185292: Running on_exit tasks
+2024-06-21 09:12:39.340792: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:12:39.340792: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:13:23.911193: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:13:23.913433: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:13:36.226238: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:13:36.236280: Running on_exit tasks
+2024-06-21 09:13:40.914615: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:13:40.930244: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:13:41.391920: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:13:41.391920: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:15:55.847125: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:15:55.857148: Running on_exit tasks
+2024-06-21 09:15:55.857148: Running on_exit tasks
+2024-06-21 09:16:18.141409: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:16:18.141409: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:17:53.298447: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:17:53.298447: Running on_exit tasks
+2024-06-21 09:18:02.218442: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:18:02.218442: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:23:42.476403: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:23:42.476403: Running on_exit tasks
+2024-06-21 09:23:47.171282: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:23:47.181190: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:23:57.747336: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:23:57.747336: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:30:07.467587: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:30:07.467587: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:30:43.500079: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:30:43.518986: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:33:29.175893: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:33:29.175893: Running on_exit tasks
+2024-06-21 09:33:41.518858: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:33:41.518858: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:38:08.985041: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:38:09.000648: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:43:23.040311: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 09:43:23.040311: Running on_exit tasks
+2024-06-21 09:43:23.040311: wfastcgi.py 3.0.0 closed
+2024-06-21 09:45:18.678473: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:45:18.678473: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:55:47.775402: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 09:55:47.785425: Running on_exit tasks
+2024-06-21 09:55:47.785425: wfastcgi.py 3.0.0 closed
+2024-06-21 09:58:52.017474: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 99
+    return jsonify({'message': 'Request submitted successfully!'})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 09:58:52.017474: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 99
+    return jsonify({'message': 'Request submitted successfully!'})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-21 09:58:52.033134: Running on_exit tasks
+2024-06-21 09:58:52.037798: wfastcgi.py 3.0.0 closed
+2024-06-21 09:58:52.289153: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 99
+    return jsonify({'message': 'Request submitted successfully!'})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 09:58:52.299195: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 99
+    return jsonify({'message': 'Request submitted successfully!'})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-21 09:58:52.299195: Running on_exit tasks
+2024-06-21 09:58:52.299195: wfastcgi.py 3.0.0 closed
+2024-06-21 09:59:35.039449: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 09:59:35.039449: wfastcgi.py 3.0.0 initialized
+2024-06-21 09:59:52.954374: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 09:59:52.954374: Running on_exit tasks
+2024-06-21 10:00:06.760683: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:00:06.762760: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:03:11.427454: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 10:03:11.427454: Running on_exit tasks
+2024-06-21 10:03:21.202872: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:03:21.218526: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:11:15.580075: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:11:15.580075: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:21:44.236840: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 10:21:44.246872: Running on_exit tasks
+2024-06-21 10:21:44.246872: wfastcgi.py 3.0.0 closed
+2024-06-21 10:38:35.449507: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:38:35.449507: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:40:38.539929: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:40:38.539929: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:44:39.382094: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:44:39.382094: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:47:28.025906: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 10:47:28.025906: Running on_exit tasks
+2024-06-21 10:47:32.589888: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:47:32.589888: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:47:42.239781: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:47:42.257260: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:52:10.876744: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:52:10.876744: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:53:56.591375: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:53:56.591911: wfastcgi.py 3.0.0 initialized
+2024-06-21 10:58:57.203552: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 10:58:57.203552: Running on_exit tasks
+2024-06-21 10:59:00.134319: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 10:59:00.149947: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:01:58.190614: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:01:58.190614: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:02:50.492915: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:02:50.492915: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:03:16.984425: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:03:17.000077: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:03:17.000077: Running on_exit tasks
+2024-06-21 11:03:17.000077: Running on_exit tasks
+2024-06-21 11:03:52.775674: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:03:52.775674: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:05:45.448937: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:05:45.448937: Running on_exit tasks
+2024-06-21 11:05:50.266209: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:05:50.281855: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:06:32.708056: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:06:32.708056: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:07:04.689237: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:07:04.689237: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:07:19.862085: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:07:19.862085: Running on_exit tasks
+2024-06-21 11:07:19.862085: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:07:19.877752: Running on_exit tasks
+2024-06-21 11:07:26.274142: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:07:26.291182: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:08:21.448329: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:08:21.448329: Running on_exit tasks
+2024-06-21 11:09:06.295329: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:09:06.310935: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:09:56.482092: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:09:56.482092: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:10:12.132251: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:10:12.147854: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:10:12.147854: Running on_exit tasks
+2024-06-21 11:10:16.068885: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:10:16.068885: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:13:22.059116: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:13:22.059116: Running on_exit tasks
+2024-06-21 11:13:27.839841: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 88
+    return jsonify([row[0] for row in request_ids])response = []
+                                                   ^^^^^^^^
+SyntaxError: invalid syntax
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 11:13:27.839841: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 88
+    return jsonify([row[0] for row in request_ids])response = []
+                                                   ^^^^^^^^
+SyntaxError: invalid syntax
+2024-06-21 11:13:27.839841: Running on_exit tasks
+2024-06-21 11:13:27.855504: wfastcgi.py 3.0.0 closed
+2024-06-21 11:13:40.491390: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 88
+    return jsonify([row[0] for row in request_ids])response = []
+                                                   ^^^^^^^^
+SyntaxError: invalid syntax
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 11:13:40.522710: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 88
+    return jsonify([row[0] for row in request_ids])response = []
+                                                   ^^^^^^^^
+SyntaxError: invalid syntax
+2024-06-21 11:13:40.522710: Running on_exit tasks
+2024-06-21 11:13:40.535053: wfastcgi.py 3.0.0 closed
+2024-06-21 11:13:53.867411: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:13:53.883079: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:14:32.579449: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:14:32.579449: Running on_exit tasks
+2024-06-21 11:14:37.963893: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 80
+    request_data = {
+                   ^
+SyntaxError: '{' was never closed
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 11:14:37.963893: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 80
+    request_data = {
+                   ^
+SyntaxError: '{' was never closed
+2024-06-21 11:14:37.979535: Running on_exit tasks
+2024-06-21 11:14:37.985216: wfastcgi.py 3.0.0 closed
+2024-06-21 11:14:44.534834: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:14:44.550547: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:15:20.895600: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:15:20.895600: Running on_exit tasks
+2024-06-21 11:15:25.272165: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 86
+    'Timestamp': request[5].strftime('%Y-%m-%d %H:%M:%S');
+                                                         ^
+SyntaxError: invalid syntax
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 11:15:25.287762: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 86
+    'Timestamp': request[5].strftime('%Y-%m-%d %H:%M:%S');
+                                                         ^
+SyntaxError: invalid syntax
+2024-06-21 11:15:25.287762: Running on_exit tasks
+2024-06-21 11:15:25.287762: wfastcgi.py 3.0.0 closed
+2024-06-21 11:15:26.004902: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 86
+    'Timestamp': request[5].strftime('%Y-%m-%d %H:%M:%S');
+                                                         ^
+SyntaxError: invalid syntax
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 11:15:26.004902: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 86
+    'Timestamp': request[5].strftime('%Y-%m-%d %H:%M:%S');
+                                                         ^
+SyntaxError: invalid syntax
+2024-06-21 11:15:26.004902: Running on_exit tasks
+2024-06-21 11:15:26.004902: wfastcgi.py 3.0.0 closed
+2024-06-21 11:15:59.810622: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:15:59.810622: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:24:43.863035: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 11:24:43.863035: Running on_exit tasks
+2024-06-21 11:24:43.878699: wfastcgi.py 3.0.0 closed
+2024-06-21 11:42:07.035135: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:42:07.035135: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:52:00.850362: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 11:52:00.850362: Running on_exit tasks
+2024-06-21 11:52:00.850362: wfastcgi.py 3.0.0 closed
+2024-06-21 11:55:07.967227: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:55:07.967227: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:57:12.166849: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:57:12.166849: Running on_exit tasks
+2024-06-21 11:57:19.201332: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:57:19.201332: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:57:59.967008: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:57:59.967008: Running on_exit tasks
+2024-06-21 11:58:03.643548: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:58:03.643548: wfastcgi.py 3.0.0 initialized
+2024-06-21 11:58:11.881380: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 11:58:11.881380: Running on_exit tasks
+2024-06-21 11:58:18.152115: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 11:58:18.152115: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:01:30.832733: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:01:30.834265: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:03:47.017939: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:03:47.017939: Running on_exit tasks
+2024-06-21 12:03:49.754066: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:03:49.769725: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:04:20.311808: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:04:20.311808: Running on_exit tasks
+2024-06-21 12:05:04.604227: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:05:04.607635: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:05:40.743515: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:05:40.743515: Running on_exit tasks
+2024-06-21 12:05:43.201301: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:05:43.207194: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:08:50.070201: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:08:50.070201: Running on_exit tasks
+2024-06-21 12:08:54.073021: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:08:54.073021: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:09:03.366642: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:09:03.366642: Running on_exit tasks
+2024-06-21 12:09:05.760262: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:09:05.760262: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:09:06.138674: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:09:06.138674: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:09:28.451391: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:09:28.451391: Running on_exit tasks
+2024-06-21 12:09:28.451391: Running on_exit tasks
+2024-06-21 12:09:31.416854: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:09:31.426872: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:11:59.303298: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:11:59.303298: Running on_exit tasks
+2024-06-21 12:12:06.482459: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:12:06.498111: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:12:24.523952: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:12:24.539506: Running on_exit tasks
+2024-06-21 12:12:27.064495: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:12:27.064495: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:15:18.142939: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:15:18.142939: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:16:30.936842: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:16:30.936842: Running on_exit tasks
+2024-06-21 12:16:34.404425: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:16:34.404425: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:21:42.820597: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 12:21:42.820597: Running on_exit tasks
+2024-06-21 12:21:45.695025: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:21:45.710668: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:35:44.815650: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 12:35:44.815650: Running on_exit tasks
+2024-06-21 12:35:44.831273: wfastcgi.py 3.0.0 closed
+2024-06-21 12:49:49.342052: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 12:49:49.357695: wfastcgi.py 3.0.0 initialized
+2024-06-21 12:55:03.009028: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 12:55:03.009028: Running on_exit tasks
+2024-06-21 12:55:03.009028: wfastcgi.py 3.0.0 closed
+2024-06-21 13:00:33.654614: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 13:00:33.654614: wfastcgi.py 3.0.0 initialized
+2024-06-21 13:00:33.803166: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 13:00:33.818848: wfastcgi.py 3.0.0 initialized
+2024-06-21 13:05:47.439910: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 13:05:47.439910: Running on_exit tasks
+2024-06-21 13:05:47.439910: wfastcgi.py 3.0.0 closed
+2024-06-21 13:11:37.433597: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 13:11:37.433597: Running on_exit tasks
+2024-06-21 13:11:37.449180: wfastcgi.py 3.0.0 closed
+2024-06-21 13:25:49.122602: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 13:25:49.141171: wfastcgi.py 3.0.0 initialized
+2024-06-21 13:31:03.179891: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 13:31:03.179891: Running on_exit tasks
+2024-06-21 13:31:03.179891: wfastcgi.py 3.0.0 closed
+2024-06-21 13:34:43.170948: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 13:34:43.189682: wfastcgi.py 3.0.0 initialized
+2024-06-21 13:39:57.226889: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 13:39:57.226889: Running on_exit tasks
+2024-06-21 13:39:57.226889: wfastcgi.py 3.0.0 closed
+2024-06-21 14:10:46.574827: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 14:10:46.574827: wfastcgi.py 3.0.0 initialized
+2024-06-21 14:16:00.542240: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 14:16:00.542240: Running on_exit tasks
+2024-06-21 14:16:00.542240: wfastcgi.py 3.0.0 closed
+2024-06-21 14:24:27.749310: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 14:24:27.749310: wfastcgi.py 3.0.0 initialized
+2024-06-21 14:34:21.854951: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 14:34:21.854951: Running on_exit tasks
+2024-06-21 14:34:21.854951: wfastcgi.py 3.0.0 closed
+2024-06-21 14:46:55.769145: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 14:46:55.786814: wfastcgi.py 3.0.0 initialized
+2024-06-21 14:55:04.721932: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 14:55:04.721932: Running on_exit tasks
+2024-06-21 14:55:04.731962: wfastcgi.py 3.0.0 closed
+2024-06-21 15:06:12.504497: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:06:12.504497: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:06:13.874102: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:06:13.889759: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:11:26.585737: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 15:11:26.600308: Running on_exit tasks
+2024-06-21 15:11:26.600308: wfastcgi.py 3.0.0 closed
+2024-06-21 15:14:57.828720: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 15:14:57.828720: Running on_exit tasks
+2024-06-21 15:14:57.828720: wfastcgi.py 3.0.0 closed
+2024-06-21 15:29:46.424176: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 15:29:46.447395: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+2024-06-21 15:29:46.449931: Running on_exit tasks
+2024-06-21 15:29:46.449931: wfastcgi.py 3.0.0 closed
+2024-06-21 15:29:59.597249: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 15:29:59.614503: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1083, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 698, in __init__
+    raise ValueError("urls must start with a leading slash")
+ValueError: urls must start with a leading slash
+2024-06-21 15:29:59.614503: Running on_exit tasks
+2024-06-21 15:29:59.614503: wfastcgi.py 3.0.0 closed
+2024-06-21 15:30:03.193683: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('/edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1086, in add_url_rule
+    self.url_map.add(rule)
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 1541, in add
+    rule.bind(self)
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 800, in bind
+    self.compile()
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 875, in compile
+    _build_regex(self.rule if self.is_leaf else self.rule.rstrip("/"))
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 842, in _build_regex
+    for converter, arguments, variable in parse_rule(rule):
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 243, in parse_rule
+    raise ValueError(f"malformed url rule: {rule!r}")
+ValueError: malformed url rule: '/edit-status-page/<request-id>'
+
+
+StdOut: 
+
+StdErr: 
+2024-06-21 15:30:03.193683: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\inetpub\wwwroot\ICTTAHTML\app.py", line 134, in <module>
+    @app.route('/edit-status-page/<request-id>')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "C:\Python\Python312\Lib\site-packages\flask\scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\flask\app.py", line 1086, in add_url_rule
+    self.url_map.add(rule)
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 1541, in add
+    rule.bind(self)
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 800, in bind
+    self.compile()
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 875, in compile
+    _build_regex(self.rule if self.is_leaf else self.rule.rstrip("/"))
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 842, in _build_regex
+    for converter, arguments, variable in parse_rule(rule):
+  File "C:\Python\Python312\Lib\site-packages\werkzeug\routing.py", line 243, in parse_rule
+    raise ValueError(f"malformed url rule: {rule!r}")
+ValueError: malformed url rule: '/edit-status-page/<request-id>'
+2024-06-21 15:30:03.209311: Running on_exit tasks
+2024-06-21 15:30:03.209311: wfastcgi.py 3.0.0 closed
+2024-06-21 15:30:20.638900: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:30:20.638900: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:33:35.231038: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:33:35.248233: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:38:49.250326: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 15:38:49.250326: Running on_exit tasks
+2024-06-21 15:38:49.259853: wfastcgi.py 3.0.0 closed
+2024-06-21 15:47:09.500782: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:47:09.500782: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:49:45.849312: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 15:49:45.849312: Running on_exit tasks
+2024-06-21 15:51:07.999364: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:51:07.999364: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:51:54.910254: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 15:51:54.927852: Running on_exit tasks
+2024-06-21 15:52:04.963262: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:52:04.982768: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:55:15.727647: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 15:55:15.744872: Running on_exit tasks
+2024-06-21 15:55:19.463322: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:55:19.478938: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:55:30.057768: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 15:55:30.057768: Running on_exit tasks
+2024-06-21 15:55:33.103379: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:55:33.103379: wfastcgi.py 3.0.0 initialized
+2024-06-21 15:56:32.221569: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 15:56:32.221569: Running on_exit tasks
+2024-06-21 15:56:34.281089: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 15:56:34.296723: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:03:36.264653: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2024-06-21 16:03:36.264653: Running on_exit tasks
+2024-06-21 16:03:40.838434: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:03:40.838434: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:10:39.901262: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 16:10:39.901262: Running on_exit tasks
+2024-06-21 16:10:39.901262: wfastcgi.py 3.0.0 closed
+2024-06-21 16:12:24.992717: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:12:25.009932: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:17:39.070647: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 16:17:39.070647: Running on_exit tasks
+2024-06-21 16:17:39.070647: wfastcgi.py 3.0.0 closed
+2024-06-21 16:22:39.704493: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:22:39.721575: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:26:38.701964: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:26:38.717587: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:27:28.555584: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:27:28.555584: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:30:01.066738: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:30:01.082364: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:31:01.868655: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:31:01.884285: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:31:57.293455: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:31:57.295010: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:32:31.577830: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:32:31.593449: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:33:11.309799: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:33:11.309799: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:35:53.883772: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:35:53.908863: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:41:07.845187: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 16:41:07.845187: Running on_exit tasks
+2024-06-21 16:41:07.845187: wfastcgi.py 3.0.0 closed
+2024-06-21 16:41:14.504362: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:41:14.504362: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:42:34.953041: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:42:34.953041: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:45:39.522890: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:45:39.540412: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:45:40.539250: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:45:40.559155: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:51:22.750328: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:51:22.760347: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:52:24.421837: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:52:24.421837: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:53:03.245424: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:53:03.262583: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:54:18.189606: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:54:18.191158: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:55:17.863209: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:55:17.863209: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:56:53.291171: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:56:53.291171: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:59:37.172507: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:59:37.180178: wfastcgi.py 3.0.0 initialized
+2024-06-21 16:59:38.256551: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 16:59:38.256551: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:01:54.554801: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:01:54.554801: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:01:55.574740: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:01:55.574740: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:02:36.867147: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:02:36.882811: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:02:37.812268: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:02:37.812268: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:05:43.399993: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:05:43.399993: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:05:44.506296: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:05:44.506296: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:18.991590: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:19.007223: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:20.180898: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:20.180898: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:36.977282: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:36.977282: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:38.025558: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:38.025558: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:54.356236: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:54.375955: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:06:55.440140: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:06:55.440140: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:07:13.113264: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:07:13.133094: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:07:14.288054: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-21 17:07:14.288054: wfastcgi.py 3.0.0 initialized
+2024-06-21 17:12:27.217288: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 17:12:27.217288: Running on_exit tasks
+2024-06-21 17:12:27.217288: wfastcgi.py 3.0.0 closed
+2024-06-21 17:12:28.221315: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-21 17:12:28.221315: Running on_exit tasks
+2024-06-21 17:12:28.221315: wfastcgi.py 3.0.0 closed
+2024-06-22 12:18:13.524046: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-22 12:18:13.577311: wfastcgi.py 3.0.0 initialized
+2024-06-22 12:23:24.373724: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-22 12:23:24.373724: Running on_exit tasks
+2024-06-22 12:23:24.373724: wfastcgi.py 3.0.0 closed
+2024-06-23 16:33:51.269494: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-23 16:33:51.336243: wfastcgi.py 3.0.0 initialized
+2024-06-23 16:39:03.191373: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-23 16:39:03.200894: Running on_exit tasks
+2024-06-23 16:39:03.200894: wfastcgi.py 3.0.0 closed
+2024-06-23 16:39:34.547998: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-23 16:39:34.547998: Running on_exit tasks
+2024-06-23 16:39:34.547998: wfastcgi.py 3.0.0 closed
+2024-06-23 22:24:49.136682: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-23 22:24:49.136682: wfastcgi.py 3.0.0 initialized
+2024-06-23 22:24:53.977449: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-23 22:24:53.977449: wfastcgi.py 3.0.0 initialized
+2024-06-23 22:30:03.130302: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-23 22:30:03.130302: Running on_exit tasks
+2024-06-23 22:30:03.140322: wfastcgi.py 3.0.0 closed
+2024-06-23 22:30:07.798884: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-23 22:30:07.798884: Running on_exit tasks
+2024-06-23 22:30:07.798884: wfastcgi.py 3.0.0 closed
+2024-06-24 07:18:53.765814: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 07:18:53.844947: wfastcgi.py 3.0.0 initialized
+2024-06-24 07:24:03.234402: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 07:24:03.234402: Running on_exit tasks
+2024-06-24 07:24:03.234402: wfastcgi.py 3.0.0 closed
+2024-06-24 08:02:13.513830: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 08:02:13.513830: wfastcgi.py 3.0.0 initialized
+2024-06-24 08:08:37.606163: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 08:08:37.606163: Running on_exit tasks
+2024-06-24 08:08:37.606163: wfastcgi.py 3.0.0 closed
+2024-06-24 08:50:30.580807: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 08:50:30.596453: wfastcgi.py 3.0.0 initialized
+2024-06-24 08:50:31.656067: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 08:50:31.656067: wfastcgi.py 3.0.0 initialized
+2024-06-24 08:55:44.753640: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 08:55:44.753640: Running on_exit tasks
+2024-06-24 08:55:44.753640: wfastcgi.py 3.0.0 closed
+2024-06-24 08:55:45.771560: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 08:55:45.781595: Running on_exit tasks
+2024-06-24 08:55:45.781595: wfastcgi.py 3.0.0 closed
+2024-06-24 09:00:17.476602: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 09:00:17.479448: wfastcgi.py 3.0.0 initialized
+2024-06-24 09:00:18.551170: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 09:00:18.566806: wfastcgi.py 3.0.0 initialized
+2024-06-24 09:05:31.502973: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 09:05:31.502973: Running on_exit tasks
+2024-06-24 09:05:31.502973: wfastcgi.py 3.0.0 closed
+2024-06-24 09:11:57.645207: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 09:11:57.645207: Running on_exit tasks
+2024-06-24 09:11:57.645207: wfastcgi.py 3.0.0 closed
+2024-06-24 09:56:04.880140: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 09:56:04.890761: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:01:18.933353: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:01:18.933353: Running on_exit tasks
+2024-06-24 10:01:18.933353: wfastcgi.py 3.0.0 closed
+2024-06-24 10:21:00.654473: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:21:00.654473: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:24:39.793981: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:24:39.793981: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:25:43.426346: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:25:43.431879: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:28:35.195100: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:28:35.195100: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:29:04.167434: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:29:04.167434: Running on_exit tasks
+2024-06-24 10:29:04.183063: wfastcgi.py 3.0.0 closed
+2024-06-24 10:29:47.853120: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:29:47.853120: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:30:16.407987: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:30:16.407987: Running on_exit tasks
+2024-06-24 10:30:16.407987: wfastcgi.py 3.0.0 closed
+2024-06-24 10:31:27.805583: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:31:27.809853: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:34:16.177480: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:34:16.177480: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:36:00.553761: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:36:00.553761: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:38:21.286950: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:38:21.302591: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:38:37.338443: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:38:37.354069: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:39:50.648819: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:39:50.651501: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:42:54.045875: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:42:54.061563: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:43:46.490801: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:43:46.500828: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:44:15.491669: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:44:15.491669: Running on_exit tasks
+2024-06-24 10:44:15.491669: wfastcgi.py 3.0.0 closed
+2024-06-24 10:44:15.717741: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:44:15.733383: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:44:31.796349: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:44:31.796349: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:45:00.858856: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:45:00.858856: Running on_exit tasks
+2024-06-24 10:45:00.858856: wfastcgi.py 3.0.0 closed
+2024-06-24 10:45:20.510581: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:45:20.526243: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:52:36.602193: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:52:36.617810: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:56:35.552595: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:56:35.568218: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:56:45.764290: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:56:45.779942: wfastcgi.py 3.0.0 initialized
+2024-06-24 10:57:02.209402: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 10:57:02.209402: Running on_exit tasks
+2024-06-24 10:57:02.209402: wfastcgi.py 3.0.0 closed
+2024-06-24 10:57:03.431546: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 10:57:03.436514: wfastcgi.py 3.0.0 initialized
+2024-06-24 11:02:16.799171: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 11:02:16.799171: Running on_exit tasks
+2024-06-24 11:02:16.799171: wfastcgi.py 3.0.0 closed
+2024-06-24 11:11:14.331972: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 11:11:14.347617: wfastcgi.py 3.0.0 initialized
+2024-06-24 11:17:03.424144: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 11:17:03.424144: Running on_exit tasks
+2024-06-24 11:17:03.424144: wfastcgi.py 3.0.0 closed
+2024-06-24 12:34:18.941486: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 12:34:18.941486: wfastcgi.py 3.0.0 initialized
+2024-06-24 12:34:25.831299: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 12:34:25.831299: wfastcgi.py 3.0.0 initialized
+2024-06-24 12:39:32.952120: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 12:39:32.952120: Running on_exit tasks
+2024-06-24 12:39:32.962138: wfastcgi.py 3.0.0 closed
+2024-06-24 12:40:14.754899: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 12:40:14.754899: Running on_exit tasks
+2024-06-24 12:40:14.754899: wfastcgi.py 3.0.0 closed
+2024-06-24 13:07:23.939252: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 13:07:23.954932: wfastcgi.py 3.0.0 initialized
+2024-06-24 13:12:37.940041: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 13:12:37.940041: Running on_exit tasks
+2024-06-24 13:12:37.955645: wfastcgi.py 3.0.0 closed
+2024-06-24 13:25:04.991715: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 13:25:05.007363: wfastcgi.py 3.0.0 initialized
+2024-06-24 13:25:06.160518: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 13:25:06.176172: wfastcgi.py 3.0.0 initialized
+2024-06-24 13:30:18.471391: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 13:30:18.471391: Running on_exit tasks
+2024-06-24 13:30:18.481411: wfastcgi.py 3.0.0 closed
+2024-06-24 13:30:20.251760: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 13:30:20.251760: Running on_exit tasks
+2024-06-24 13:30:20.251760: wfastcgi.py 3.0.0 closed
+2024-06-24 13:44:08.709702: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 13:44:08.709702: wfastcgi.py 3.0.0 initialized
+2024-06-24 13:51:07.793010: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 13:51:07.793010: Running on_exit tasks
+2024-06-24 13:51:07.793010: wfastcgi.py 3.0.0 closed
+2024-06-24 14:06:35.666681: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 14:06:35.666681: wfastcgi.py 3.0.0 initialized
+2024-06-24 14:11:07.820970: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 14:11:07.836622: wfastcgi.py 3.0.0 initialized
+2024-06-24 14:18:41.833821: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 14:18:41.833821: Running on_exit tasks
+2024-06-24 14:18:41.833821: wfastcgi.py 3.0.0 closed
+2024-06-24 14:22:54.698964: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 14:22:54.714628: Running on_exit tasks
+2024-06-24 14:22:54.714628: wfastcgi.py 3.0.0 closed
+2024-06-24 14:50:22.020325: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-24 14:50:22.020325: wfastcgi.py 3.0.0 initialized
+2024-06-24 14:55:35.821874: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-24 14:55:35.821874: Running on_exit tasks
+2024-06-24 14:55:35.821874: wfastcgi.py 3.0.0 closed
+2024-06-25 07:46:20.988275: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-25 07:46:21.070878: wfastcgi.py 3.0.0 initialized
+2024-06-25 07:52:04.404726: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-25 07:52:04.404726: Running on_exit tasks
+2024-06-25 07:52:04.404726: wfastcgi.py 3.0.0 closed
+2024-06-25 08:01:52.548037: wfastcgi.py will restart when files in C:\inetpub\wwwroot\ICTTAHTML\ are changed: .*((\.py)|(\.config))$
+2024-06-25 08:01:52.562684: wfastcgi.py 3.0.0 initialized
+2024-06-25 08:07:06.744734: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-06-25 08:07:06.744734: Running on_exit tasks
+2024-06-25 08:07:06.754261: wfastcgi.py 3.0.0 closed

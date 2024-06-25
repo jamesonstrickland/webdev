@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Material Request</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container-top, .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container-top {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1000;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+        }
+        .flex-container {
+            display: flex;
+            align-items: center;
+            gap:  20%;
+        }
+        .container select, .container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .container button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+        .KPIQuickLooks{
+            padding: 10px;
+            margin: 10px;
+        }
+        .KPIQuickLooks .OTDOverdue{
+            color: red;
+        }
+        .KPIQuickLooks .OTDWarning{
+            color: orange;
+        }
+        .KPIQuickLooks .OTDOnTime{
+            color: green;
+        }
+        .KPIQuickLooks .OTDUnknown{
+            color: black;
+        }
+        @media (max-width: 600px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+            tr {
+                margin-bottom: 15px;
+                display: block;
+            }
+            thead {
+                display: none;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container-top">
+            <h1>Warehouse Dashboard</h1>
+            <div class="flex-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                    <select id="filterSelect">
+                        <option value="requestID">Request ID</option>
+                        <option value="status">Status</option>
+                        <option value="priority">Priority</option>
+                        <option value="materialId">Material ID</option>
+                        <!-- Add more filter options as needed -->
+                    </select>
+            
+                <div class="KPIQuickLooks">
+                    <a class="KPILabel" id="KPI1"> OTD Overdue:
+                        <a class="OTDOverdue">XXX</a>
+                    </a>
+                    <a class="KPILabel" id="KPI1"> OTD Warning:
+                        <a class="OTDWarning">XXX</a>
+                    </a>
+                    <a class="KPILabel" id="KPI1"> OTD On Time:
+                        <a class="OTDOnTime">XXX</a>
+                    </a>
+                    <a class="KPILabel" id="KPI1"> OTD Unknown:
+                        <a class="OTDUnknown">XXX</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <table style="padding-top: 10px; margin-top: 10px;">
+                <thead>
+                    <tr class="top">
+                        <th>Request ID</th>
+                        <th>Status</th>
+                        <th>Priority</th>
+                        <th>Material ID</th>
+                        <th>Quantity</th>
+                        <th>Timestamp</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody id="request-status">
+                    <!-- Request status rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

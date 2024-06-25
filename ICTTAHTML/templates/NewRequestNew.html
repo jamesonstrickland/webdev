@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Material Request</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+            .container {
+                text-align: center;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .container h1, .container h2 {
+                margin-bottom: 20px;
+            }
+            .container-top {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1000;
+            }
+            .container h1 {
+            margin-bottom: 20px;
+            }      
+            .container select, .container input[type="number"] {
+                width: 100%;
+                padding: 10px 0px 10px 0px;
+                margin: 10px 0;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .container button {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin: 10px auto;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                background-color: #007BFF;
+                color: white;
+            }
+            .container button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+<body>
+
+<div class="container">
+    <h1>New Material Request</h1>
+    
+    <form id ="requestForm">
+        <h2 id="requestId"></h2>
+        <div>
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="New-Unacknowledged">New-Unacknowledged</option>
+                <option value="Acknowledged">Acknowledged</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Received">Received</option>
+                <option value="Completed">Completed</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority">
+                <option value="Critical">Critical</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="materialId">Material ID:</label>
+            <select id="materialId" name="materialId">
+                <!-- Options will be populated here by JavaScript -->
+            </select>
+        </div>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <button onclick="checkDbConnection()">Check DB Connection</button>
+</div>
+
+<script>
+    //Global Vars
+    const urlParams = new URLSearchParams(window.location.search);
+    const requestId = urlParams.get('requestId');
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        document.getElementById('requestId').textContent = `Request ID: ${requestId}`;
+
+        // Fetch material IDs from the SQL database and populate the Material ID dropdown
+        fetch('/api/get-material-ids')
+            .then(response => response.json())
+            .then(data => {
+                const materialIdSelect = document.getElementById('materialId');
+                data.forEach(id => {
+                    const option = document.createElement('option');
+                    option.value = id;
+                    option.textContent = id;
+                    materialIdSelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching material IDs:', error));
+        });
+
+        //Form Submittion Event Listener
+        document.getElementById('requestForm').addEventListener('submit', (event) => {
+            event.preventDefault();
+            const requestIdInput = requestId;
+            const status = document.getElementById('status').value;
+            const priority = document.getElementById('priority').value;
+            const materialId = document.getElementById('materialId').value;
+            const quantity = document.getElementById('quantity').value;
+
+            const requestData = {
+                requestId: requestIdInput,
+                status: status,
+                priority: priority,
+                materialId: materialId,
+                quantity: quantity
+            };
+
+            fetch('/submit-request', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(requestData)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.text().then(text => { throw new Error(text); });
+                }
+                return response.json();
+            })
+            .then(data => {
+                alert(data.message);
+                window.location.href = `/request-status?requestId=${encodeURIComponent(requestIdInput)}`;
+            })
+            .catch(error => console.error('Error submitting request:', error));
+        });
+</script>
+
+<script>
+function checkDbConnection() {
+            fetch('/check-db-connection')
+                .then(response => response.json())
+                .then(result => {
+                    alert(result.message);
+                })
+                .catch(error => console.error('Error checking DB connection:', error));
+        }
+
+</script>
+</body>
+</html>

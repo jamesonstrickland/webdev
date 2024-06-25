@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container-top, .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container-top {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1000;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+        }
+        .container select, .container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .container button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+            tr {
+                margin-bottom: 15px;
+                display: block;
+            }
+            thead {
+                display: none;
+            }
+        }
+    </style>
+  <!--  <link rel="stylesheet" href="C:\inetpub\wwwroot\ICTTAHTML\static\css\styles.css">-->
+
+    
+</head>
+<body>
+    <div class="container-top">    
+        <h1>Existing Request Status</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <select id="filterSelect">
+            <option value="requestID">Request ID</option>
+            <option value="status">Status</option>
+            <option value="priority">Priority</option>
+            <option value="materialId">Material ID</option>
+            <!-- Add more filter options as needed -->
+        </select>
+    </div>
+    <div class="container">
+        <table style="padding-top: 10px; margin-top: 10px;">
+            <thead>
+                <tr class="top">
+                    <th>Request ID</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Material ID</th>
+                    <th>Quantity</th>
+                    <th>Timestamp</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="request-status">
+                <!-- Request status rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+   
+
+   <!-- <script src="/static/js/scripts.js"></script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const searchInput = document.getElementById('searchInput');
+            const urlParams = new URLSearchParams(window.location.search);
+            const requestId = urlParams.get('requestId');
+
+            fetch('/api/get-requestIds') 
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    const requestStatusTable = document.getElementById('request-status');
+                    data.forEach(requestId => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${requestId.RequestID}</td>
+                            <td>${requestId.Status}</td>
+                            <td>${requestId.Priority}</td>
+                            <td>${requestId.MaterialID}</td>
+                            <td>${requestId.Quantity}</td>
+                            <td>${requestId.Timestamp}</td>
+                            <td class="age-counter"></td>
+                        `;
+                        row.addEventListener('click', () => {
+                            window.location.href = `/edit-status-page/${requestId.RequestID}`;
+                        });
+                        requestStatusTable.appendChild(row);
+                    });
+                    calculateAge(); 
+                })
+                .catch(error => console.error('Error fetching requests:', error));
+
+            // Search and filter functionality
+            const filterSelect = document.getElementById('filterSelect');
+            searchInput.addEventListener('input', handleSearch);
+            filterSelect.addEventListener('change', handleSearch);
+            
+            if (requestId) {
+                document.getElementById('searchInput').value = requestId;
+                handleSearch();
+            }
+
+            function handleSearch() {
+                const searchValue = searchInput.value.toLowerCase();
+                const filterBy = filterSelect.value;
+                const rows = document.querySelectorAll('#request-status tr:not(.top)');
+
+                rows.forEach(row => {
+                    const cellValue = row.querySelector(`td:nth-child(${getFilterIndex(filterBy)})`).textContent.toLowerCase();
+                    row.style.display = cellValue.includes(searchValue) ? '' : 'none';
+                });
+            }
+
+            function getFilterIndex(filterBy) {
+                switch (filterBy) {
+                    case 'requestID':
+                        return 1;
+                    case 'status':
+                        return 2;
+                    case 'priority':
+                        return 3;
+                    case 'materialId':
+                        return 4;
+                    // Add more after review with Aldo
+                    default:
+                        return 1; 
+                }
+            }
+
+            // Calculate and display age
+            function calculateAge() {
+                const rows = document.querySelectorAll('#request-status tr:not(.top)');
+                rows.forEach(row => {
+                    const timestamp = new Date(row.querySelector('td:nth-child(6)').textContent).getTime();
+                    const ageCounter = row.querySelector('.age-counter');
+                    const ageInterval = setInterval(() => {
+                        const now = new Date().getTime();
+                        const age = Math.floor((now - timestamp) / 1000); // Age in seconds
+                        ageCounter.textContent = formatAge(age);
+                    }, 1000); // Update every second
+                });
+            }
+
+            function formatAge(seconds) {
+                const days = Math.floor(seconds / (3600 * 24));
+                seconds %= 3600 * 24;
+                const hours = Math.floor(seconds / 3600);
+                seconds %= 3600;
+                const minutes = Math.floor(seconds / 60);
+                seconds %= 60;
+                return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            }
+            
+        });
+    </script>
+</body>
+</html>

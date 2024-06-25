@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC Material Requests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            margin-bottom: 20px;
+        }
+        .container button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>IC Material Requests</h1>
+    <button onclick="newRequest()">New Material Request</button>
+    <button onclick="location.href='/request-status'">Request Status</button>
+    <button onclick="location.href='/warehouse-dashboard'">Warehouse Dashboard</button>
+    <button onclick="location.href='/fidelitone-dashboard'">Fidelitone Dashboard</button>
+</div>
+
+<script>
+   function newRequest() {
+        const now = new Date();
+        const requestId = `${String(now.getDate()).padStart(2, '0')}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getFullYear()).slice(-2)}-${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}${String(now.getSeconds()).padStart(2, '0')}`;
+        localStorage.setItem('requestId', requestId)
+        alert(`New Request ID: ${requestId}`);
+        location.href = `new-request?requestId=${requestId}`;
+    }
+</script>
+
+</div>
+
+</body>
+</html>
