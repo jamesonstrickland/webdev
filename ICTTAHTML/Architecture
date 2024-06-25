@@ -1,0 +1,63 @@
+# Process Flow:
+Material Need>Fill out form>Material Req Generated> Req Status tracked and reported (PBI, etc.)
+
+# Stack
+• Front-end: HTML, CSS, JavaScript
+• Back-end: flask/Python
+• Database: SQL (existing local database)
+• Reporting: Power BI (for connecting to the SQL database)
+
+
+
+# Directory structure
+Server name: USABQM0TEST
+
+C:\inetpub\wwwroot\ICTTAHTML
+|-- /templates
+|   |-- index.html
+|   |-- new-request.html
+|   |-- request-status.html
+|-- /static
+|   |-- /css
+|   |   |-- styles.css
+|   |-- /js
+|   |   |-- scripts.js
+|-- app.py
+|--requirements.txt
+|--web.config
+
+
+
+
+# Frontend (HTML/CSS/JS):
+	○ HTML
+	○ CSS: Styling of the web pages. (not in use currently, to be added once server is serving)
+	○ JavaScript: Logic for handling user input, making API requests to the backend, and dynamically updating the DOM.
+	○ Components:
+		§ Landing Page: Buttons for 'New Request', 'Request Status', 'Warehouse Dashboard', 'Fidelitone Dashboard'.
+		§ New Request Form: Fields for Request ID, Status, Priority, Material ID, Quantity, and a Submit button.
+# Backend:
+	○ Flask/python
+	○ Endpoints:
+		§ /get-material-ids: Fetches material IDs from the SQL database.
+		§ /submit-request: Submits a new material request to the SQL database.
+	○ Logic:
+		§ Handles form submissions from the frontend.
+		§ Connects to the SQL server to retrieve and store data.
+# Database (SQL Server):
+	○ Tables:
+		§ dbo.Materials:
+			§ MaterialID (PK, nvarchar(255), null)
+			§ MaterialName (nvarchar(255), not null)
+			§ MaterialVendor (nvarchar(255), null)
+		§ dbo.Requests: 
+			§ RequestID (varchar(15), not null)
+			§ Status (varchar(50), not null)
+			§ Priority (varchar(50), not null)
+			§ MaterialID (FK, nvarchar(255), not null)
+			§ Quantity (int, not null)
+			§ Timestamp (datetime, null)
+	○ data operations:
+		§ Fetch Material IDs for dropdown population in Material field on New request entry.
+		§ Insert new requests submitted from the newRequests.
+
