@@ -1,0 +1,68 @@
+CREATE TABLE Materials (
+MaterialID VARCHAR(255) PRIMARY KEY,
+MaterialDescription VARCHAR(255) NOT NULL,
+MaterialVendor VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE Requests (
+    RequestID VARCHAR(25) PRIMARY KEY,
+    Status VARCHAR(50) NOT NULL,
+    Priority VARCHAR(50) NOT NULL,
+    MaterialID VARCHAR(255) NOT NULL,
+    Quantity INT NOT NULL,
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (MaterialID) REFERENCES Materials(MaterialID)
+);
+
+
+
+CREATE TABLE dbo.MaterialsStaging (
+    MaterialID NVARCHAR(255),
+    MaterialName NVARCHAR(255),
+    MaterialVendor NVARCHAR(500)
+);
+
+
+BULK INSERT dbo.MaterialsStaging
+FROM 'C:\Users\3325764\Desktop\MatRef.csv'
+WITH (
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    FIRSTROW = 2 
+);
+
+INSERT INTO dbo.Materials (MaterialID, MaterialName, MaterialVendor)
+SELECT MaterialID, MaterialName, MaterialVendor
+FROM dbo.MaterialsStaging;
+
+DROP TABLE dbo.MaterialsStaging;
+
+
+
+
+
+CREATE TABLE dbo.MaterialsStaging (
+	RequestID NVARCHAR(255),
+	Status NVARCHAR(255),
+	Priority NVARCHAR(255),
+	MaterialID NVARCHAR(255),
+	Quantity NVARCHAR(255)   
+);
+
+
+BULK INSERT dbo.MaterialsStaging
+FROM 'C:\Users\3325764\Desktop\DumyData.csv'
+WITH (
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    FIRSTROW = 2 
+);
+
+INSERT INTO dbo.Requests(RequestID, Status, Priority, MaterialID, Quantity)
+SELECT RequestID, Status, Priority, MaterialID, Quantity
+FROM dbo.MaterialsStaging;
+
+DROP TABLE dbo.MaterialsStaging;
+
+
