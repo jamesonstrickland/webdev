@@ -61,3 +61,14 @@ C:\inetpub\wwwroot\ICTTAHTML
 		§ Fetch Material IDs for dropdown population in Material field on New request entry.
 		§ Insert new requests submitted from the newRequests.
 
+# Data Flow
+User Interaction:
+	○ User interacts with the frontend (e.g., clicks 'New Request', fills out the form).
+Frontend to Backend:
+	○ Frontend JavaScript makes HTTP requests to the Flask server endpoints.
+Backend to Database:
+	○ Flask server handles the requests, interacts with the SQL server to fetch or store data.
+Database to Backend:
+	○ SQL server processes the queries (e.g., fetch Material IDs, insert new request) and returns the results to the Flask server
+Backend to Frontend:
+Flask server sends the data back to the frontend, which updates the UI accordingly; Flask sends response data to JavaScript. JavaScript updates the UI with the response data.
